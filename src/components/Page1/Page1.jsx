@@ -4,7 +4,7 @@ import Page1Content from './Page1Content'
 
 const Page1 = () => {
   return (
-    <div className='h-screen w-full overflow-y-auto'>
+    <div id='page1' className='h-screen w-full overflow-y-auto'>
         <Navbar />
         <Page1Content />
     </div>
