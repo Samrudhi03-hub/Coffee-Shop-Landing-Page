@@ -1,20 +1,22 @@
 import React from 'react'
+import Page2Story from './Page2Story'
+import Page2Cards from './Page2Cards'
 
-const Page2 = () => {
+const Page2 = (props) => {
+  console.log(props.cards);
   return (
-    <div className='h-screen w-full bg-[#F3E8D6] px-30'>
-        <div className='flex justify-between'>
-            <div className='bg-white pt-7'>
-                <h3 className='uppercase text-[#3B2F2F] font-bold tracking-wide '>Featured</h3>
-                <h2 className='text-3xl font-extrabold text-[#4d3423] pt-1'>Why Choose Us?</h2>
-                <p className='text-[#674229] text-sm pt-6 leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laboriosam eveniet, magni est in deserunt dignissimos libero. Doloremque non ut molestiae eos aut, architecto, a deserunt consectetur eius, recusandae sunt excepturi ab iste accusantium sint tempora ratione ea? Ex ipsa pariatur voluptates qui! Facilis sapiente unde impedit! Provident, omnis, recusandae aliquam tempora laborum placeat at, culpa nulla dolore minus porro!</p>
-                <button className='bg-[#3e2616] text-white mt-4'>Know more</button>
+    <div className='h-full w-full bg-[#F3E8D6] px-30'>
+        <Page2Story />
+
+        {/* page 2 cards */}
+        <div className='pt-20 pb-20 flex gap-5'>
+          {/* card1 */}
+          {props.cards.map((elem, idx) => {
+            return <div key={idx}>
+              <Page2Cards img={elem.img} title={elem.title} desc={elem.desc}/>
             </div>
-            <img className='h-100 rounded-b-xl' src="./public/coffee-cup1.jpg" alt="" />
-        </div>
+          })}
 
-
-        <div>
 
         </div>
     </div>
