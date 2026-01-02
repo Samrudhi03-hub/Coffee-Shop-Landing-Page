@@ -10,7 +10,7 @@ const App = () => {
       desc: 'A bold and intense shot crafted from finely ground beans, delivering rich crema and deep flavors in every sip.Perfect for true coffee lovers'
     },
     {
-      img: './cards/card2n.png',
+      img: './cards/card2.png',
       title: 'Latte',
       desc: 'A smooth blend of rich espresso and steamed milk, finished with delicate latte art. Creamy, comforting, and ideal for a relaxed coffee moment.'
     },
