@@ -3,7 +3,6 @@ import Page2Story from './Page2Story'
 import Page2Cards from './Page2Cards'
 
 const Page2 = (props) => {
-  console.log(props.cards);
   return (
     <div className='h-full w-full bg-[#F3E8D6] px-30'>
         <Page2Story />

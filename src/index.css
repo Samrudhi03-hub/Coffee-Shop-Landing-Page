@@ -3,3 +3,7 @@
 #page1::-webkit-scrollbar {
     display: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
