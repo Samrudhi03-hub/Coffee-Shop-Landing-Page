@@ -8,7 +8,7 @@ const Page2 = (props) => {
         <Page2Story />
 
         {/* page 2 cards */}
-        <div className='pt-20 pb-20 grid grid-cols-4 gap-5'>
+        <div className='pt-20 pb-20 grid grid-cols-4 gap-5 lg:grid-cols-2 xl:grid-cols-4 xl:pr-20 lg:gap-30'>
           {/* card1 */}
           {props.cards.map((elem, idx) => {
             return <Page2Cards key={idx} img={elem.img} title={elem.title} desc={elem.desc}/>

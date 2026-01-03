@@ -12,7 +12,7 @@ const App = () => {
     {
       img: './cards/card2.png',
       title: 'Latte',
-      desc: 'A smooth blend of rich espresso and steamed milk, finished with delicate latte art. Creamy, comforting, and ideal for a relaxed coffee moment.'
+      desc: 'A smooth blend of rich espresso and steamed milk, finished with delicate latte art. Creamy and comforting for a relaxed coffee moment.'
     },
     {
       img: './cards/card3.png',
