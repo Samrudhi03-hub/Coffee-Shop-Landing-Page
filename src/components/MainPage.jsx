@@ -7,7 +7,7 @@ import Space from './Space'
 
 const MainPage = (props) => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
         <Page1 />
         <Page2 cards={props.cards} />
         <Page3 />
