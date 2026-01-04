@@ -3,17 +3,17 @@ import React from 'react'
 
 const Page3 = () => {
   return (
-    <div id='location' className='flex justify-between bg-[#AD8E74] lg:pl-30 xl:pl-30 sm:pl-4 h-60'>
-        <div className='lg:py-10 xl:py-10 sm:py-5 xl:mr-40 lg:mr-10 sm:mr-10 flex flex-col justify-between'>
+    <div id='location' className='flex justify-between bg-[#AD8E74] pl-4 lg:pl-30 xl:pl-30 sm:pl-4 h-60'>
+        <div className='py-2 lg:py-10 xl:py-10 sm:py-5 mr-5 xl:mr-40 lg:mr-10 sm:mr-10 flex flex-col justify-between'>
             <h2 className='text-white lg:text-3xl xl:text-3xl sm:text-xl tracking-wide font-semibold'>Morning Happy Hours</h2>
-            <p className='text-orange-100 py-3 text-sm'>Start your day with freshly brewed coffee, warm aromas, and a calm café vibe. Enjoy special morning blends crafted to energize your mornings and slow down your rush.</p>
-            <div className='flex justify-between text-white text-xs '>
+            <p className='text-orange-100 py-3 text-xs lg:text-sm xl:text-sm sm:text-sm'>Start your day with freshly brewed coffee, warm aromas, and a calm café vibe. Enjoy special morning blends crafted to energize your mornings and slow down your rush.</p>
+            <div className='flex justify-between text-white text-[10px] '>
                 <a className='flex gap-1 text-orange-100 items-center' href="#menu"><Coffee color='white' size={14} />Explore Morning Menu</a>
                 <a className='flex gap-1 text-orange-100 items-center' href="#home"><MapPin color='white' size={14} />Visit Our Café</a>
             </div>
         </div>
-        <div className='h-full pl-10 lg:pl-30 xl:pl-50 w-250 object-cover'>
-            <img className='h-full' src="./coffee3n.png" alt="" />
+        <div className='h-full pl-3 lg:pl-30 xl:pl-50 w-200 object-cover'>
+            <img className='h-50 lg:h-full xl:h-full sm:h-full' src="./coffee3n.png" alt="" />
         </div>
     </div>
   )
